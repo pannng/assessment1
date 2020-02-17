@@ -1,0 +1,38 @@
+body{
+  background-image: url(../images/background.jpeg);
+  margin:0 auto;
+  text-align: center;
+}
+
+h1{
+  text-align: center;
+  text-transform: lowercase;
+}
+
+img{
+  width: 125px; 
+  margin-bottom: 10px;
+}
+
+div{
+  padding: 25px; 
+  margin:5px; 
+  /* YOUR CODE HERE */
+}
+
+#mystuff{
+  display: grid;
+  grid-template-columns: auto auto;
+  justify-content: space-around;
+}
+
+@media screen and (min-width: 800px){
+  #mystuff{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    justify-content: space-around;
+    border-collapse: separate;
+    box-sizing: border-box;
+  }
+
+}
